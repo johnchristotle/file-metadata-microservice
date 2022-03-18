@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>File Metadata</title>
+      <link rel="shortcut icon" href="https://github.com/johnchristotle/icon.png" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+        <h1>File Metadata Microservice</h1>
+
+        <p>
+          Upload a file to see its Metadata
+        </p>
+        <div class="view">
+          <h4 id="output"></h4>
+          <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+            <input id="inputfield" type="file" name="upfile">
+            <input id="button" type="submit" value="Upload">
+          </form>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          by 
+          <a href="http://www.github.com/johnchristotle" target="_blank">Christotle Agholor</a>
+        </p>
+      </div>
+   </body>
+</html>
